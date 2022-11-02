@@ -15,3 +15,60 @@ The initial pattern constitutes the 'seed' of the system. The first generation i
 ### Solution:
 
 For testing the app, run main.py and follow the remaining procedures as printed in the console during execution.
+
+#### Sample input and output:
+
+------------------------------------------------------------------------------------------------------------------
+Input A:
+(Block pattern - Still life)
+1, 1
+1, 2
+2, 1
+2, 2
+Output A:
+1, 1
+1, 2
+2, 1
+2, 2
+--------------------------------------------------------------------------------------------- ---------------------
+Input B
+(Boat pattern - Still life)
+0, 1
+1, 0
+2, 1
+0, 2
+1, 2
+Output B
+0, 1
+1, 0
+2, 1
+0, 2
+1, 2
+--------------------------------------------------------------------------------------------- ---------------------
+Input C
+(Blinker pattern - oscillator)
+1, 1
+1, 0
+1, 2
+Output C
+
+1, 1
+0, 1
+2, 1
+--------------------------------------------------------------------------------------------- ---------------------
+Input D
+(Toad pattern - two phase oscillator)
+1, 1
+1, 2
+1, 3
+2, 2
+2, 3
+2, 4
+Output D
+0, 2
+1, 1
+1, 4
+2, 1
+2, 4
+3, 3
+==========
